@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.petz.clientepet.cliente.domain.Cliente;
+
 @SpringBootApplication
 @RestController
 @RequestMapping("/")
