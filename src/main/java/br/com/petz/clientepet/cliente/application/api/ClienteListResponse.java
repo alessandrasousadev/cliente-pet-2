@@ -17,7 +17,7 @@ public class ClienteListResponse {
 	
 	public static List<ClienteListResponse> converte(List<Cliente> clientes) {
 		return clientes.stream()
-				.map(c -> new ClienteListResponse(c))
+				.map(ClienteListResponse::new)
 				.collect(Collectors.toList());
 	}
 	
