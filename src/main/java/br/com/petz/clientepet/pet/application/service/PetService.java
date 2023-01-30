@@ -1,4 +1,4 @@
-package br.com.petz.clientepet.pet.application.application.service;
+package br.com.petz.clientepet.pet.application.service;
 
 import java.util.UUID;
 
