@@ -1,8 +1,6 @@
 package br.com.petz.clientepet.pet.application.api;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.UUID;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;

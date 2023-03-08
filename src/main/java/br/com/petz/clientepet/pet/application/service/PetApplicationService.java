@@ -44,8 +44,10 @@ public class PetApplicationService implements PetService {
 	@Override
 	public PetClienteDetalheResponse buscaPetDoClienteComID(UUID idCliente, UUID idPet) {
 		log.info("[inicia] PetApplicationService - buscaPetDoClienteComID");
+		clienteService.buscaClienteAtravesId(idCliente);
+		Pet pet = petRepository.buscaPetPeloId(idPet);
 		log.info("[finaliza] PetApplicationService - buscaPetDoClienteComID");
-		return null;
+		return new PetClienteDetalheResponse(pet);
 	}
 
 }

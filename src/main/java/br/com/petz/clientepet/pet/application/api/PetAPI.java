@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.petz.clientepet.cliente.application.api.ClienteDetalhadoResponse;
-
 @RestController
 @RequestMapping("/v1/cliente/{idCliente}/pet")
 public interface PetAPI {
