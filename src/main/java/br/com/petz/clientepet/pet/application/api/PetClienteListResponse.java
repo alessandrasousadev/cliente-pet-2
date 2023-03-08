@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import br.com.petz.clientepet.cliente.application.api.ClienteListResponse;
 import br.com.petz.clientepet.pet.domain.Pet;
 import br.com.petz.clientepet.pet.domain.TipoPet;
 import lombok.Value;
